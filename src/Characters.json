@@ -1,0 +1,22 @@
+[
+  { "name": "Astra", "img": "Astra.png" },
+  { "name": "Breach", "img": "Breach.png" },
+  { "name": "Brimstone", "img": "Brimstone.png" },
+  { "name": "Chamber", "img": "Chamber.png" },
+  { "name": "Cypher", "img": "Cypher.png" },
+  { "name": "Fade", "img": "Fade.png" },
+  { "name": "Harbor", "img": "Harbor.png" },
+  { "name": "Jett", "img": "Jett.png" },
+  { "name": "KAY/O", "img": "KAYO.png" },
+  { "name": "Killjoy", "img": "Killjoy.png" },
+  { "name": "Neon", "img": "Neon.png" },
+  { "name": "Omen", "img": "Omen.png" },
+  { "name": "Phoenix", "img": "Phoenix.png" },
+  { "name": "Raze", "img": "Raze.png" },
+  { "name": "Reyna", "img": "Reyna.png" },
+  { "name": "Sage", "img": "Sage.png" },
+  { "name": "Skye", "img": "Skye.png" },
+  { "name": "Sova", "img": "Sova.png" },
+  { "name": "Viper", "img": "viper.png" },
+  { "name": "Yoru", "img": "Yoru.png" }
+]
