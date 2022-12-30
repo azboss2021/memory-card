@@ -3,9 +3,6 @@ import uniqid from 'uniqid';
 import CharacterJSON from '../Characters.json';
 
 const Cards = ({ numberOfCards, cards, setCards, score, setScore }) => {
-  const [seenCards, setSeenCards] = useState([]);
-  const [currentCard, setCurrentCard] = useState('');
-
   useEffect(() => {
     setCards([]);
     const chars = CharacterJSON;
@@ -20,6 +17,7 @@ const Cards = ({ numberOfCards, cards, setCards, score, setScore }) => {
       } else {
         const newItem = chars[rand];
         newItem.id = uniqid();
+        newItem.clicked = false;
         newSet.push(newItem);
       }
       seen.push(rand);
@@ -27,15 +25,6 @@ const Cards = ({ numberOfCards, cards, setCards, score, setScore }) => {
 
     setCards([...newSet]);
   }, []);
-
-  useEffect(() => {
-    document.querySelector('#score').textContent = score;
-    console.log(score);
-  }, [score]);
-
-  useEffect(() => {
-    console.log(seenCards);
-  }, [seenCards]);
 
   const FisherYatesShuffle = (arr) => {
     let m = arr.length,
@@ -53,30 +42,12 @@ const Cards = ({ numberOfCards, cards, setCards, score, setScore }) => {
     return arr;
   };
 
-  const HandleClick = (id) => {
-    setSeenCards((current) => [...current, id]);
-    setCards([...FisherYatesShuffle(cards)]);
-    if (seenCards.includes(id)) {
-      setScore(0);
-      setSeenCards([]);
-      setCards([...FisherYatesShuffle(cards)]);
-      return;
-    } else {
-      setScore(score + 1);
-    }
-  };
-
   return (
     <>
       <div id="cards">
         {cards.map((card) => {
           return (
-            <div
-              id={card.id}
-              key={card.id}
-              className="card"
-              onClick={(e) => HandleClick(e.target.id)}
-            >
+            <div id={card.id} key={card.id} className="card">
               <img
                 src={require('../images/' + card.img)}
                 alt={card.name}
@@ -90,7 +61,6 @@ const Cards = ({ numberOfCards, cards, setCards, score, setScore }) => {
           );
         })}
       </div>
-      <div>{seenCards}</div>
     </>
   );
 };
