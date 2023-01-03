@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-export default function Score({ score }) {
+const Score = ({ score, bestScore }) => {
   return (
-    <>
-      <div id="BestScore"></div>
-      <div id="score"></div>
-    </>
+    <div id="score">
+      Score: {score} - Best Score: {bestScore}
+    </div>
   );
-}
+};
+
+export default Score;
