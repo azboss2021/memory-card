@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.126d2e62.css",
+    "main.js": "/memory-card/static/js/main.b5de3ab9.js",
+    "static/media/Chamber.png": "/memory-card/static/media/Chamber.87636cda291f43854f66.png",
+    "static/media/Neon.png": "/memory-card/static/media/Neon.e56735e2b53f127041b6.png",
+    "static/media/Fade.png": "/memory-card/static/media/Fade.a3668db3a8851de74bef.png",
+    "static/media/Yoru.png": "/memory-card/static/media/Yoru.dbd38f20da3b499e5d5c.png",
+    "static/media/Breach.png": "/memory-card/static/media/Breach.a89e2f58ac16266837d5.png",
+    "static/media/KAYO.png": "/memory-card/static/media/KAYO.011bebc6ec3f281dfce8.png",
+    "static/media/Skye.png": "/memory-card/static/media/Skye.a745a556f01ba4d499d6.png",
+    "static/media/Sova.png": "/memory-card/static/media/Sova.d44f399bdabb41ebdca3.png",
+    "static/media/Astra.png": "/memory-card/static/media/Astra.df925e06a5c8d4bc4a14.png",
+    "static/media/Raze.png": "/memory-card/static/media/Raze.bba50d63560b8ab49b08.png",
+    "static/media/Omen.png": "/memory-card/static/media/Omen.3ebb840721096772b9ad.png",
+    "static/media/Cypher.png": "/memory-card/static/media/Cypher.8af1377491a097dd6a1e.png",
+    "static/media/Jett.png": "/memory-card/static/media/Jett.ce21f5673cd887d7c9de.png",
+    "static/media/Killjoy.png": "/memory-card/static/media/Killjoy.fed27cadc659c2f09710.png",
+    "static/media/Viper.png": "/memory-card/static/media/Viper.64d59b3910cd6fb9a55b.png",
+    "static/media/Sage.png": "/memory-card/static/media/Sage.10fec8cd7cf7a68b51d6.png",
+    "static/media/Phoenix.png": "/memory-card/static/media/Phoenix.23508b38ba5e002748e7.png",
+    "static/media/Brimstone.png": "/memory-card/static/media/Brimstone.20ab732ea4634c741551.png",
+    "static/media/Reyna.png": "/memory-card/static/media/Reyna.c3d5907c082b3d3a7768.png",
+    "static/media/Harbor.png": "/memory-card/static/media/Harbor.92fea3a39a69d78d196d.png",
+    "index.html": "/memory-card/index.html",
+    "main.126d2e62.css.map": "/memory-card/static/css/main.126d2e62.css.map",
+    "main.b5de3ab9.js.map": "/memory-card/static/js/main.b5de3ab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.126d2e62.css",
+    "static/js/main.b5de3ab9.js"
+  ]
+}
